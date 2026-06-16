@@ -194,7 +194,21 @@
 
     <div class="container">
         <!-- Reemplaza "TU_ID_DE_FORMSPREE" con el endpoint real que te dé Formspree -->
-        <form id="flowerForm" action="https://formspree.io/f/https://formspree.io/f/xvznlnvn" method="POST">
+        <form
+  action="https://formspree.io/f/xvznlnvn"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
             
             <!-- SECCIÓN 1: Nombre -->
             <div id="step1" class="step active">
